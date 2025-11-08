@@ -6,7 +6,7 @@ The project explores noise removal and resolution enhancement on ancient *Kannad
 ---
 
 ## 📂 Project Structure
-
+```
 final-lusip/
 │
 ├── DEEP_IMAGE_PRIOR_kannada_palm_leaf_8image.ipynb     # Main Jupyter notebook
@@ -17,7 +17,7 @@ final-lusip/
 ├── Chain-of-Zoom.pdf                                   # Paper reference
 ├── psnr-compare.png / ssim.png                         # Evaluation visuals
 └── README.md                                           # You are here 🙂
-
+```
 ---
 
 ## ⚙️ Setup Instructions
