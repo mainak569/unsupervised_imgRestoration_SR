@@ -23,21 +23,25 @@ final-lusip/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
+```
 git clone https://github.com/mainak569/unsupervised_imgRestoration_SR.git
 cd unsupervised_imgRestoration_SR
-
+```
 ### 2. Install dependencies
+```
 Use Python ≥3.8 and install required libraries:
 pip install -r requirements.txt
-
+```
 If you don’t have a `requirements.txt`, typical packages are:
+```
 pip install numpy scipy matplotlib pillow torch torchvision tqdm opencv-python
-
+```
 ### 3. (Optional) Create a virtual environment
+```
 python3 -m venv env
 source env/bin/activate  # macOS/Linux
 env\Scripts\activate     # Windows
-
+```
 ---
 
 ## 💾 Dataset Notes (Git LFS Required)
@@ -47,28 +51,33 @@ To handle them properly, **Git LFS (Large File Storage)** must be installed.
 
 ### Install and configure Git LFS:
 #### macOS
+```
 brew install git-lfs
-
+```
 #### Initialize LFS globally
+```
 git lfs install
-
+```
 #### Track large file types
+```
 git lfs track "*.jpg" "*.png" "*.pdf" "*.csv" "*.ipynb"
-
+```
 #### Add tracking configuration
+```
 git add .gitattributes
 git commit -m "Add Git LFS tracking"
-
+```
 ---
 
 ## 🚀 Run the Notebook
 
 You can explore and run the restoration pipeline using:
-jupyter notebook DEEP_IMAGE_PRIOR_kannada_palm_leaf_8image.ipynb
+`jupyter notebook DEEP_IMAGE_PRIOR_kannada_palm_leaf_8image.ipynb`
 
 Or directly execute the Python script:
+```
 python zebra.py
-
+```
 ---
 
 ## 📊 Outputs & Metrics
@@ -85,15 +94,17 @@ python zebra.py
 
 If pushing large data to GitHub:
 ### Increase buffer and prevent timeout
+```
 git config --global http.postBuffer 524288000
 git config --global http.lowSpeedLimit 0
 git config --global http.lowSpeedTime 999999
-
+```
 ### Recommit and push
+```
 git add .
 git commit -m "final LFS-optimized commit"
 git push origin main --force
-
+```
 ---
 
 ## 🧠 Reference
