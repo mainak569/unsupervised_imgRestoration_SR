@@ -33,6 +33,12 @@ Recovers high-resolution detail from a single low-resolution scan with Deep Imag
 
 ---
 
+## Demo Video
+
+https://github.com/user-attachments/assets/88c0b924-acbc-4a16-8a57-5e249f093ba5
+
+A 2-minute walkthrough: the no-training-data problem, the Deep Image Prior loop, the network configuration, the pipeline, PSNR during optimization, results on all 8 manuscripts, and zoomed visual comparisons.
+
 ## Overview
 
 Digitised palm-leaf manuscripts are often low resolution, faded, and noisy, and there is no paired low/high-resolution dataset to train a supervised super-resolution model on. This project uses **Deep Image Prior** ([Ulyanov et al., CVPR 2018](https://arxiv.org/abs/1711.10925)), which needs no training data. The *structure of a convolutional network* acts as the image prior: an untrained network is optimised so that a **downsampled** version of its output matches the observed low-resolution image, and its full-resolution output is taken as the super-resolved result.
