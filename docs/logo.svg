@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <title>Unsupervised Image Restoration &amp; Super-Resolution logo</title>
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="#1E1B3A"/>
+  <!-- low-resolution half: coarse pixel blocks -->
+  <g fill="#C9A86A">
+    <rect x="18" y="34" width="12" height="12"/>
+    <rect x="30" y="46" width="12" height="12" opacity=".75"/>
+    <rect x="18" y="58" width="12" height="12" opacity=".55"/>
+    <rect x="30" y="70" width="12" height="12" opacity=".9"/>
+    <rect x="42" y="34" width="12" height="12" opacity=".6"/>
+    <rect x="42" y="58" width="12" height="12"/>
+  </g>
+  <!-- divider -->
+  <line x1="60" y1="26" x2="60" y2="94" stroke="#8B7CF6" stroke-width="3" stroke-dasharray="4 4"/>
+  <!-- restored half: smooth palm leaf with script lines -->
+  <path d="M66 86 C 70 56, 86 36, 104 30 C 100 52, 88 76, 66 86 Z" fill="#E8C987"/>
+  <path d="M68 84 C 78 66, 90 48, 102 33" stroke="#1E1B3A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M76 70 l7 2 M83 60 l7 2 M90 50 l6 2" stroke="#1E1B3A" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- sparkle: "super-resolution" -->
+  <path d="M96 82 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z" fill="#8B7CF6"/>
+</svg>
