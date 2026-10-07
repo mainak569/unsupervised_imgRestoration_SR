@@ -1,8 +1,12 @@
 <div align="center">
 
+<img src="docs/logo.svg" alt="Unsupervised Image Restoration & Super-Resolution logo" width="110" />
+
 # Unsupervised Image Restoration & Super-Resolution
 
-**Training-free ×8 super-resolution of ancient Kannada palm-leaf manuscripts using Deep Image Prior (DIP): a randomly initialised network fitted to a single low-resolution image, with no external training data.**
+**Training-Free ×8 Super-Resolution for Ancient Kannada Palm-Leaf Manuscripts**
+
+Recovers high-resolution detail from a single low-resolution scan with Deep Image Prior (DIP): an untrained network is fitted to that one image, so no training dataset is needed. Measured against nearest, bicubic and sharpened upsampling with PSNR and SSIM.
 
 <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python 3.8+" /></a>
 <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-DL_Framework-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" /></a>
@@ -16,12 +20,12 @@
 <a href="https://git-lfs.com"><img src="https://img.shields.io/badge/Git_LFS-Images_%26_Notebook-F64935?logo=git&logoColor=white" alt="Git LFS" /></a>
 
 <p>
+  <a href="#results"><strong>Results</strong></a> ·
   <a href="#overview">Overview</a> ·
   <a href="#repository-structure">Repository Structure</a> ·
   <a href="#method">Method</a> ·
   <a href="#pipeline">Pipeline</a> ·
   <a href="#metrics">Metrics</a> ·
-  <a href="#results">Results</a> ·
   <a href="#end-to-end-quick-start">Quick Start</a>
 </p>
 
@@ -58,6 +62,7 @@ unsupervised_imgRestoration_SR/
 ├── psnr_evolution.png                               # PSNR (LR & HR) over iterations
 ├── nature.jpg                                       # extra natural test image
 ├── Chain-of-Zoom.pdf                                # related-work reference paper
+├── docs/logo.svg                                    # README logo
 ├── .gitattributes                                   # Git LFS tracking rules
 └── README.md
 ```
