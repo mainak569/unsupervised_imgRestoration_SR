@@ -20,7 +20,8 @@ Recovers high-resolution detail from a single low-resolution scan with Deep Imag
 <a href="https://git-lfs.com"><img src="https://img.shields.io/badge/Git_LFS-Images_%26_Notebook-F64935?logo=git&logoColor=white" alt="Git LFS" /></a>
 
 <p>
-  <a href="#results"><strong>Results</strong></a> ·
+  <a href="#demo-video"><strong>Demo Video</strong></a> ·
+  <a href="#results">Results</a> ·
   <a href="#overview">Overview</a> ·
   <a href="#repository-structure">Repository Structure</a> ·
   <a href="#method">Method</a> ·
@@ -182,7 +183,7 @@ CSV columns in `dip_metrics_8images.csv`:
 | `6-img.jpg` | 23.21 | 23.68 | 23.70 | **23.96** | +0.27 | 0.665 | 3845 | 532 |
 | `7-img.jpg` | 25.52 | 26.28 | 26.30 | **27.14** | +0.86 | 0.702 | 2832 | 393 |
 | `8-img.jpg` | 23.55 | 24.00 | 24.02 | **24.62** | +0.62 | 0.619 | 3654 | 520 |
-| **Mean** | 23.76 | 24.36 | 24.37 | **24.76** | **+0.40** | **0.634** | — | 509 |
+| **Mean** | 23.76 | 24.35 | 24.37 | **24.76** | **+0.40** | **0.634** | — | 509 |
 
 All PSNR values are in dB. DIP beats every classical baseline on **all 8 images** without any training data.
 
